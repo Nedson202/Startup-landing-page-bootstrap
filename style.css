@@ -13,7 +13,7 @@ html {
 #content {
     text-align: center;
     padding-top: 25%;
-    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1),
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -26,4 +26,20 @@ hr {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     align-self: center;
+}
+
+/* Login stylesheet*/
+.form-inline {
+    padding-top: 25%;
+}
+
+.decoration,a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.decoration,a:hover {
+    text-decoration: none;
+    color: black;
 }
